@@ -1,0 +1,218 @@
+*{
+    margin:0;
+    padding: 0;
+    font-family: 'Arimo', sans-serif;
+    list-style: none;
+    padding: 0;
+}
+.contact{
+    
+    background-image: url(background-2127472_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg_image{
+    background-image: url(compt.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.sktext{
+    font-size: 25px;
+}
+.image{
+    background-image: url(background-2127472_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.text{
+    padding: 15%;
+    top: 15%;
+    right: 35%;
+    
+}
+.skills{
+    width: 700px;
+    margin: 20px ;
+    color:rgb(20, 18, 18);
+    float: left;
+    justify-content: left;
+    font-family: 'Arimo', sans-serif;
+    left: 80px;
+}
+.skills li{
+    margin: 20px 0;
+}
+.bar{
+    background: #ffff;
+    display: block;
+    height: 2px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 3px;
+    overflow: hidden;
+    box-shadow: 0 0 10px #2187e7b3;
+    animation: css 6s;
+    inline-size: linear;
+    font-family: 'Arimo', sans-serif;
+}
+.barspan{
+    height: 2px;
+    float: left;
+    background: #2187e7;
+}
+  .html{
+width: 95%;
+animation: html 6s;
+inline-size:linear;
+  }  
+  .css{
+      width:90%;
+      animation: css 6s;
+      inline-size: linear;
+  }
+  .javascript{
+      width: 70%;
+      animation: javascript 6s;
+      inline-size:linear;
+      }
+  .react.js{
+      width: 65%;
+      animation: php 6s;
+      inliner-size:linear;
+  }
+  .bootstrap{
+      width: 78%;
+      animation: bootstrap 10s;
+       inline-size:linear;
+  }
+@keyframes html{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 95%;
+    }
+}
+@keyframes css{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 90%;
+    }
+}
+@keyframes javascript{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 85%;
+    }
+}
+@keyframes php{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 65%;
+    }
+}
+@keyframes bootstrap{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width: 78%;
+    }
+}
+.fa-instagram{
+padding: 20px;
+    font-size: 50px;
+    color: white;
+
+}
+.fa-twitter{
+    padding: 20px;
+    font-size: 50px;
+    color: white;
+}
+.fa-github{
+    padding: 20px;
+    font-size: 50px;
+    color: white;
+}
+.fa-linkedin{
+    font-size: 50px;
+    padding: 20px;
+    color: white;
+}
+.fa-map-marker-alt{
+    font-size:40px;
+    height: 50px;
+    justify-content: right;
+    color: white;
+     
+}
+.text2{
+font-size: 20px;
+}
+.services{
+    background-image: url(startup.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+.row{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.card{
+  width: 20%;
+  margin-bottom:100px;
+  transition: 0.3s;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.card-title{
+  text-align: center;
+  padding: 50px 10px;
+  font-family: 'Arimo', sans-serif;
+}
+.card-body{
+ padding: 3px 2px;
+ text-align: center;
+ font-size: 15px;
+ font-family: 'Arimo', sans-serif;
+}
+.card-body .btn{
+  font-family: 'Arimo', sans-serif;
+display: block;
+text-align: center;
+margin-top: 2px;
+margin-bottom: 2px;
+text-decoration: none;
+padding: 10px 24px;
+font-size: 16px;
+}
+.card:hover{
+  transform:scale(1.05);
+  box-shadow: 0 0 40px -10px  rgba(0,0,0,0.25);
+}
+.btn:hover{
+background-color: grey;
+box-shadow: 0 0 40px -10px rgba(0,0,0,0.25);
+}
+/* responsive media query*/
+@media screen and (max-width: 1000px){
+.card {
+width: 40%;
+}
+}
+@media screen and (max-width:620px) {
+.container{
+width: 100%;
+}
+ 
